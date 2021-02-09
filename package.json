@@ -1,0 +1,10 @@
+{
+  "name": "compsciia",
+  "version": "1.0",
+  "description": "An IA for CompSci",
+  "main": "app.js",
+  "author": "Paulo Costa",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
