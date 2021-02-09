@@ -40,8 +40,8 @@ var scopes = [
 
 var spotifyApi = new SpotifyWebApi({
   redirectUri: 'http://localhost:8888/callback',
-  clientId: '22b886336a40429bb717d8d9b7364157',
-  clientSecret: 'cdef3737eea0479494903b5bf4b7f924'
+  clientId: 'clientid',
+  clientSecret: 'clientsecret'
 });
 
 const app = express();
