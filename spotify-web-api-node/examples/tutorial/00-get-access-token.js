@@ -14,7 +14,7 @@
  *  and visit <http://localhost:8888/login> in your Browser.
  */
 const SpotifyWebApi = require('../../');
-const express = require('../../node_modules/express');
+const express = require('express');
 
 const scopes = [
   'ugc-image-upload',

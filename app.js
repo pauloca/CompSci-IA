@@ -14,7 +14,7 @@
  *  and visit <http://localhost:8888/login> in your Browser.
  */
 var SpotifyWebApi = require('spotify-web-api-node');
-var express = require('node_modules/express');
+var express = require('express');
 
 var scopes = [
   'ugc-image-upload',
@@ -40,8 +40,8 @@ var scopes = [
 
 var spotifyApi = new SpotifyWebApi({
   redirectUri: 'http://localhost:8888/callback',
-  clientId: '22b886336a40429bb717d8d9b7364157',
-  clientSecret: 'cdef3737eea0479494903b5bf4b7f924'
+  clientId: '',
+  clientSecret: ''
 });
 
 const app = express();
@@ -93,6 +93,14 @@ app.get('/callback', (req, res) => {
       res.send(`Error getting Tokens: ${error}`);
     });
 });
+
+spotifyApi.getAlbum('6dVlqQ8qmQ5GBnJ9shOYGE')
+  .then(function(data) {
+    console.log('Album information', data.body);
+  }, function(err) {
+    console.error(err);
+  });
+
 
 app.listen(8888, () =>
   console.log(
