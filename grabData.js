@@ -1,10 +1,9 @@
-const fs = require('fs');
 const SpotifyWebApi = require('spotify-web-api-node');
-const token = '';
 var express = require('express');
-var http = require('http');
-
 const app = express();
+
+const token = '';
+
 var spotifyApi = new SpotifyWebApi({
   clientId: '',
   clientSecret: '',
@@ -12,7 +11,7 @@ var spotifyApi = new SpotifyWebApi({
 });
 spotifyApi.setAccessToken(token);
 
-(async () => {
+(async() => {
   var me = await spotifyApi.getMe();
   var playbackState = await spotifyApi.getMyCurrentPlaybackState()
   if (playbackState.body && playbackState.body.is_playing) {
@@ -139,7 +138,5 @@ spotifyApi.setAccessToken(token);
 });
 
 app.listen(8888, () =>
-  console.log(
-    'HTTP Server up. Now go to http://localhost:8888/about in your browser.'
-  )
+  console.log('HTTP Server up. Now go to http://localhost:8888/about in your browser.')
 );
