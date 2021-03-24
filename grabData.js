@@ -26,11 +26,11 @@ spotifyApi.setAccessToken(token);
           '<div class="dataItem">' +
           '<h2 class="dataHead">Top tracks (last 6 months)</h2>' +
           '<ol>' +
-          '<li>' + topTracks[0].name + ' by ' + topTracks[0].artists[0].name + '<audio controls autoplay><source src="' + topTracks[0].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[1].name + ' by ' + topTracks[1].artists[0].name + '<audio controls autoplay><source src="' + topTracks[1].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[2].name + ' by ' + topTracks[2].artists[0].name + '<audio controls autoplay><source src="' + topTracks[2].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[3].name + ' by ' + topTracks[3].artists[0].name + '<audio controls autoplay><source src="' + topTracks[3].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[4].name + ' by ' + topTracks[4].artists[0].name + '<audio controls autoplay><source src="' + topTracks[4].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[0].name + ' by ' + topTracks[0].artists[0].name + '<audio controls><source src="' + topTracks[0].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[1].name + ' by ' + topTracks[1].artists[0].name + '<audio controls><source src="' + topTracks[1].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[2].name + ' by ' + topTracks[2].artists[0].name + '<audio controls><source src="' + topTracks[2].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[3].name + ' by ' + topTracks[3].artists[0].name + '<audio controls><source src="' + topTracks[3].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[4].name + ' by ' + topTracks[4].artists[0].name + '<audio controls><source src="' + topTracks[4].preview_url + '"></audio></li>' +
           '</ol>' +
           '</div>' +
           '<div class="dataItem">' +
@@ -46,11 +46,11 @@ spotifyApi.setAccessToken(token);
           '<div class="dataItem">' +
           '<h2 class="dataHead">Recently played tracks</h2>' +
           '<ol>' +
-          '<li>' + recentlyPlayedTracks[0].track.name + ' by ' + recentlyPlayedTracks[0].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[0].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[1].track.name + ' by ' + recentlyPlayedTracks[1].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[1].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[2].track.name + ' by ' + recentlyPlayedTracks[2].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[2].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[3].track.name + ' by ' + recentlyPlayedTracks[3].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[3].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[4].track.name + ' by ' + recentlyPlayedTracks[4].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[4].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[0].track.name + ' by ' + recentlyPlayedTracks[0].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[0].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[1].track.name + ' by ' + recentlyPlayedTracks[1].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[1].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[2].track.name + ' by ' + recentlyPlayedTracks[2].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[2].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[3].track.name + ' by ' + recentlyPlayedTracks[3].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[3].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[4].track.name + ' by ' + recentlyPlayedTracks[4].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[4].track.preview_url + '"></audio></li>' +
           '</ol>' +
           '</div>' +
           '<div class="dataItem">' +
@@ -79,11 +79,11 @@ spotifyApi.setAccessToken(token);
           '<div class="dataItem">' +
           '<h2 class="dataHead">Top tracks (last 6 months)</h2>' +
           '<ol>' +
-          '<li>' + topTracks[0].name + ' by ' + topTracks[0].artists[0].name + '<audio controls autoplay><source src="' + topTracks[0].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[1].name + ' by ' + topTracks[1].artists[0].name + '<audio controls autoplay><source src="' + topTracks[1].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[2].name + ' by ' + topTracks[2].artists[0].name + '<audio controls autoplay><source src="' + topTracks[2].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[3].name + ' by ' + topTracks[3].artists[0].name + '<audio controls autoplay><source src="' + topTracks[3].preview_url + '"></audio></li>' +
-          '<li>' + topTracks[4].name + ' by ' + topTracks[4].artists[0].name + '<audio controls autoplay><source src="' + topTracks[4].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[0].name + ' by ' + topTracks[0].artists[0].name + '<audio controls><source src="' + topTracks[0].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[1].name + ' by ' + topTracks[1].artists[0].name + '<audio controls><source src="' + topTracks[1].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[2].name + ' by ' + topTracks[2].artists[0].name + '<audio controls><source src="' + topTracks[2].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[3].name + ' by ' + topTracks[3].artists[0].name + '<audio controls><source src="' + topTracks[3].preview_url + '"></audio></li>' +
+          '<li>' + topTracks[4].name + ' by ' + topTracks[4].artists[0].name + '<audio controls><source src="' + topTracks[4].preview_url + '"></audio></li>' +
           '</ol>' +
           '</div>' +
           '<div class="dataItem">' +
@@ -99,11 +99,11 @@ spotifyApi.setAccessToken(token);
           '<div class="dataItem">' +
           '<h2 class="dataHead">Recently played tracks</h2>' +
           '<ol>' +
-          '<li>' + recentlyPlayedTracks[0].track.name + ' by ' + recentlyPlayedTracks[0].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[0].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[1].track.name + ' by ' + recentlyPlayedTracks[1].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[1].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[2].track.name + ' by ' + recentlyPlayedTracks[2].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[2].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[3].track.name + ' by ' + recentlyPlayedTracks[3].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[3].track.preview_url + '"></audio></li>' +
-          '<li>' + recentlyPlayedTracks[4].track.name + ' by ' + recentlyPlayedTracks[4].track.artists[0].name + '<audio controls autoplay><source src="' + recentlyPlayedTracks[4].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[0].track.name + ' by ' + recentlyPlayedTracks[0].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[0].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[1].track.name + ' by ' + recentlyPlayedTracks[1].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[1].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[2].track.name + ' by ' + recentlyPlayedTracks[2].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[2].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[3].track.name + ' by ' + recentlyPlayedTracks[3].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[3].track.preview_url + '"></audio></li>' +
+          '<li>' + recentlyPlayedTracks[4].track.name + ' by ' + recentlyPlayedTracks[4].track.artists[0].name + '<audio controls><source src="' + recentlyPlayedTracks[4].track.preview_url + '"></audio></li>' +
           '</ol>' +
           '</div>' +
           '<div class="dataItem">' +
